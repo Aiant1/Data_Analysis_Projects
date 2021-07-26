@@ -53,10 +53,6 @@ df = pd.read_csv('C:\\Users\\ASUS\\Downloads\\breast-cancer-wisconsin.data', sep
 
 df.head()
 
-
-# In[84]:
-
-
 df.info()
 
 
@@ -74,12 +70,6 @@ df.replace('?',1,inplace=True)
 df.drop(['id_number'],1,inplace=True)
 #change the data type 
 df['Bare_Nuclei'] = df['Bare_Nuclei'].astype(np.int64)
-
-
-# In[ ]:
-
-
-
 
 
 # In[87]:
@@ -424,44 +414,6 @@ ax.set_xticklabels(("KNN","SVC","DT","RF","NB","LG"))
 ax.legend()
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
